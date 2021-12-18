@@ -2,6 +2,6 @@
 <?php
 print("This is first time...");
 print("Second time commit...");
-print(`ip addr show`);
+print(`cat /etc/sysconfig/network-scripts/ifcfg-eth0`);
 ?>
 </pre>
